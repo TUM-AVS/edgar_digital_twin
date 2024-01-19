@@ -34,7 +34,7 @@ The `x`, `y`, and `z` values represent the coordinates in meters, indicating the
 The parameter set can be found in the file [edgar.urdf](source/sensor_parameter/edgar.urdf) located in the `sensor_parameter` directory. We refer to the [README](source/sensor_parameter/README.md) for further details.
 
 
-## Vehicle Dynamics Parameters
+## Vehicle dynamics parameters
 
 Here, we provide a list of parameters that define the vehicle dynamics of our autonomous research vehicle. These parameters can be utilized in various vehicle dynamic models, enabling accurate simulation and analysis of the vehicle's behavior.
 The parameter set can be found in the file [vehicle_parameters_edgar.yaml](source/vehicle_dynamics_parameter/vehicle_parameters_edgar.yaml) file located in the `vehicle_dynamics_parameter` directory. Each parameter is listed with its corresponding value and its unit.
@@ -45,14 +45,16 @@ The parameter set can be found in the file [vehicle_parameters_edgar.yaml](sourc
 <details>
 <summary> <h2> 🔧 Tools </h2> </summary>
 
-#### AWSIM
+## AWSIM
 The given tool can be used to integrate our research vehicle as 3D-model in the [AWSIM](https://github.com/tier4/AWSIM) simulation environment by TierIV. A detailed description how to use the tool is given in the [README](tools/AWSIM/README.md).
 
-#### Edgar State Publisher
+## Edgar State Publisher
 By means of the given guide, EDGAR can be visualized in the Robot State Publisher based on the given .urdf-file. A detailed description how to use the tool is given in the [README](tools/edgar_state_publisher/README.md).
 
-</details>
 <!-- #### CARLA -->
+
+</details>
+
 
 <details>
 <summary> <h2> 📇 Contact and Contribution </h2> </summary>
@@ -65,7 +67,7 @@ If you want to work with us on the EDGAR, tests your algorithms on the real car 
 </details>
 
 <details>
-<summary> <h2> 📃Reference and Citation </h2> </summary>
+<summary> <h2> 📃 Reference and Citation </h2> </summary>
 The collected research papers in this repository were used to create the paper [EDGAR: An Autonomous Driving Research Platform -- From Feature Development to Real-World Application](https://arxiv.org/abs/2309.15492). If you find the information in this repository useful we would be happy if you cite it based on the following definition:
 
 ```bibtex

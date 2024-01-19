@@ -1,17 +1,22 @@
 # TUM EDGAR: Digital Twin
 
-Welcome to the EDGAR Digital Twin repository of the Technical University of Munich! Here you find data, parameters, and information related to our TUM EDGAR research vehicle.
+Welcome to the TUM EDGAR Digital Twin repository of the Technical University of Munich! Here you find data, parameters, and information related to our [TUM EDGAR research vehicle](https://arxiv.org/pdf/2309.15492.pdf)
 
 ![EDGAR](source/docs/EDGAR_Digital_Twin.png)
 
 
 ## What is a Digital Twin?
 
-A digital twin is a virtual representation of a physical object or system. In the case of our repository, the digital twin serves as a digital counterpart of our autonomous research vehicle. It captures the vehicle's behavior, performance, and characteristics in a virtual environment. With this information you can simulate the EDGAR vehicle in various 2D and 3D simulation environments.
+A digital twin is a virtual representation of a physical object or system. In the case of our repository, the digital twin serves as a digital counterpart of our autonomous research vehicle. It captures the vehicle's dynamic behavior, performance, and characteristics in a virtual environment. With this information you can simulate the TUM EDGAR autonomous vehicle in various 2D and 3D simulation environments like Carla.
 
-## Repository Content
+<summary> <h2> 📁 Repository Content and Folder Structure </h2> </summary>
+## Repository Content and Folder Structure
 
-This repository is organized into the two sections of `source` and `tools`. `source` contains all parameters and models of the vehicle. `tools` contains tools to integrate the digital twin in dedicated development environments.
+This repository is organized into the two sections of `source` and `tools`.
+
+* `source` contains all parameters and models of the vehicle.
+
+*  `tools` contains tools to integrate the digital twin in dedicated development and simulation environments.
 
 ### Source
 

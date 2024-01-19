@@ -2,7 +2,7 @@
 
 Welcome to the TUM EDGAR Digital Twin repository of the Technical University of Munich! Here you find data, parameters, and information related to our [TUM EDGAR research vehicle](https://arxiv.org/pdf/2309.15492.pdf)
 
-![EDGAR](source/docs/EDGAR_Digital_Twin.png)
+![EDGAR](source/docs/EDGAR_DigitalTwin.png)
 
 
 ## What is a Digital Twin?

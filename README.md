@@ -54,7 +54,6 @@ In this folder you will find the necessary documentation and files for importing
 ## Edgar State Publisher
 By means of the given guide, EDGAR can be visualized in the Robot State Publisher based on the given .urdf-file. A detailed description how to use the tool is given in the [README](tools/edgar_state_publisher/README.md).
  CARLA
-
 </details>
 
 

@@ -42,8 +42,8 @@ The parameter set can be found in the file [vehicle_parameters_edgar.yaml](sourc
 <!-- ### Network Parameters -->
 </details>
 
-</details>
-<summary> <h2> 🔧 Tool </h2> </summary>
+<details>
+<summary> <h2> 🔧 Tools </h2> </summary>
 
 #### AWSIM
 The given tool can be used to integrate our research vehicle as 3D-model in the [AWSIM](https://github.com/tier4/AWSIM) simulation environment by TierIV. A detailed description how to use the tool is given in the [README](tools/AWSIM/README.md).
@@ -51,28 +51,26 @@ The given tool can be used to integrate our research vehicle as 3D-model in the 
 #### Edgar State Publisher
 By means of the given guide, EDGAR can be visualized in the Robot State Publisher based on the given .urdf-file. A detailed description how to use the tool is given in the [README](tools/edgar_state_publisher/README.md).
 
-
-<details>
+</details>
 <!-- #### CARLA -->
 
-
-## Contact
+<details>
+<summary> <h2> 📇 Contact and Contribution </h2> </summary>
 
 If you have any questions, feel free to contact our [EDGAR-Team](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/edgar/).
 
-## References
-P. Karle et al., "EDGAR: An Autonomous Driving Research Platform - From Feature Development to Real-World Application" (under review)
+</details>
 
-<!-- BibTex:
-```
-@ARTICLE{Karle2023_2,
-  author={Karle, Phillip and Török, Ferenc and Geisslinger, Maximilian and Lienkamp, Markus},
-  journal={IEEE Access},
-  title={MixNet: Physics Constrained Deep Neural Motion Prediction for Autonomous Racing},
+<details>
+<summary> <h2> 📃Reference and Citation </h2> </summary>
+P. Karle et al., "EDGAR: An Autonomous Driving Research Platform - From Feature Development to Real-World Application" (under review)
+</details>
+
+```bibtex
+@inproceedings{sauerbeck2023,
+  title={Multi-LiDAR Localization and Mapping Pipeline for Urban Autonomous Driving},
+  author={\textbf{Sauerbeck, Florian} and Kulmer, Dominik and Leitenstern, Maximilian and Weiss, Christoph and Betz, Johannes},
+  booktitle={2023 IEEE Sensors},
   year={2023},
-  volume={11},
-  number={},
-  pages={85914-85926},
-  doi={10.1109/ACCESS.2023.3303841}
 }
-``` -->
+```

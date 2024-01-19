@@ -9,24 +9,25 @@ Welcome to the TUM EDGAR Digital Twin repository of the Technical University of 
 
 A digital twin is a virtual representation of a physical object or system. In the case of our repository, the digital twin serves as a digital counterpart of our autonomous research vehicle. It captures the vehicle's dynamic behavior, performance, and characteristics in a virtual environment. With this information you can simulate the TUM EDGAR autonomous vehicle in various 2D and 3D simulation environments like Carla.
 
+<details>
 <summary> <h2> 📁 Repository Content and Folder Structure </h2> </summary>
-## Repository Content and Folder Structure
 
 This repository is organized into the two sections of `source` and `tools`.
 
 * `source` contains all parameters and models of the vehicle.
 
 *  `tools` contains tools to integrate the digital twin in dedicated development and simulation environments.
+</details>
 
-### Source
+<details>
+<summary> <h2> 🖥 Source </h2> </summary>
 
-
-#### 3D Model
+### 3D Model
 
 We provide a 3D model for the autonomous research vehicle body. This model can be integrated into 3D simulations, allowing you to visualize the vehicle and its sensors.
 The 3D model files can be found in the folder `3d_model`. We offer a `high_res` and a `low_res` version of the 3D-model for various use cases. See the READMEs in the folders for more details.
 
-#### Sensor Parameters
+### Sensor Parameters
 
 In this folder, we provide a detailed parameter set that specifies the position (x, y, z) of the sensors in relation to the rear axle (base link) of the autonomous research vehicle.
 The `x`, `y`, and `z` values represent the coordinates in meters, indicating the displacement of each sensor from base link along the respective axes.
@@ -39,9 +40,10 @@ We provide a list of parameters that define the vehicle dynamics of our autonomo
 The parameter set can be found in the file [vehicle_parameters_edgar.yaml](source/vehicle_dynamics_parameter/vehicle_parameters_edgar.yaml) file located in the `vehicle_dynamics_parameter` directory. Each parameter is listed with its corresponding value and its unit.
 
 <!-- ### Network Parameters -->
+</details>
 
-### Tools
-
+</details>
+<summary> <h2> 🔧 Tool </h2> </summary>
 
 #### AWSIM
 The given tool can be used to integrate our research vehicle as 3D-model in the [AWSIM](https://github.com/tier4/AWSIM) simulation environment by TierIV. A detailed description how to use the tool is given in the [README](tools/AWSIM/README.md).
@@ -50,6 +52,7 @@ The given tool can be used to integrate our research vehicle as 3D-model in the 
 By means of the given guide, EDGAR can be visualized in the Robot State Publisher based on the given .urdf-file. A detailed description how to use the tool is given in the [README](tools/edgar_state_publisher/README.md).
 
 
+<details>
 <!-- #### CARLA -->
 
 

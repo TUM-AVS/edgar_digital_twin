@@ -10,11 +10,11 @@ Welcome to the TUM EDGAR Digital Twin repository of the Technical University of 
 A digital twin is a virtual representation of a physical object or system. In the case of our repository, the digital twin serves as a digital counterpart of our autonomous research vehicle. It captures the vehicle's dynamic behavior, performance, and characteristics in a virtual environment. With this information you can simulate the TUM EDGAR autonomous vehicle in various 2D and 3D simulation environments like Carla.
 
 <details>
-<summary> <h2> 📁 Repository Content and Folder Structure </h2> </summary>
+<summary> <h2> 📁 Repository content and folder structure </h2> </summary>
 
 This repository is organized into the two sections of `source` and `tools`.
 
-* `source` contains all parameters and models of the vehicle.
+* `source` contains all models and parameters of the vehicle.
 
 *  `tools` contains tools to integrate the digital twin in dedicated development and simulation environments.
 </details>
@@ -22,21 +22,21 @@ This repository is organized into the two sections of `source` and `tools`.
 <details>
 <summary> <h2> 🖥 Source </h2> </summary>
 
-### 3D Model
+## 3D Models
 
-We provide a 3D model for the autonomous research vehicle body. This model can be integrated into 3D simulations, allowing you to visualize the vehicle and its sensors.
-The 3D model files can be found in the folder `3d_model`. We offer a `high_res` and a `low_res` version of the 3D-model for various use cases. See the READMEs in the folders for more details.
+Here, we provide a 3D model for the autonomous research vehicle body. This model can be integrated into 3D simulations, allowing you to visualize the vehicle and its sensors.
+The 3D model files can be found in the folder `3d_model`. We offer a `high_res` 3D model (high resolution models for high fidelity simulation environments) and a `low_res` 3D model (downsampled visual 3D model) for various use cases. See the READMEs in the folders for more details.
 
-### Sensor Parameters
+## Sensor position parameters
 
-In this folder, we provide a detailed parameter set that specifies the position (x, y, z) of the sensors in relation to the rear axle (base link) of the autonomous research vehicle.
+Here, we provide a detailed parameter set that specifies the position (x, y, z) of the sensors in relation to the rear axle (base link) of the autonomous research vehicle.
 The `x`, `y`, and `z` values represent the coordinates in meters, indicating the displacement of each sensor from base link along the respective axes.
 The parameter set can be found in the file [edgar.urdf](source/sensor_parameter/edgar.urdf) located in the `sensor_parameter` directory. We refer to the [README](source/sensor_parameter/README.md) for further details.
 
 
-#### Vehicle Dynamics Parameters
+## Vehicle Dynamics Parameters
 
-We provide a list of parameters that define the vehicle dynamics of our autonomous research vehicle. These parameters can be utilized in various vehicle dynamic models, enabling accurate simulation and analysis of the vehicle's behavior.
+Here, we provide a list of parameters that define the vehicle dynamics of our autonomous research vehicle. These parameters can be utilized in various vehicle dynamic models, enabling accurate simulation and analysis of the vehicle's behavior.
 The parameter set can be found in the file [vehicle_parameters_edgar.yaml](source/vehicle_dynamics_parameter/vehicle_parameters_edgar.yaml) file located in the `vehicle_dynamics_parameter` directory. Each parameter is listed with its corresponding value and its unit.
 
 <!-- ### Network Parameters -->
@@ -57,7 +57,8 @@ By means of the given guide, EDGAR can be visualized in the Robot State Publishe
 <details>
 <summary> <h2> 📇 Contact and Contribution </h2> </summary>
 We are welcome interested researchers and developers in the field to contribute to our autonomous driving research. People can integrate the EDGAR digital twin in their simulations and use it to derive results. If you further want to collaborate, we are displaying the TUM EDGAR development pipeline below. Feel free to develop autonomous driving software features or create new 2D or 3D maps.
-![EDGAR](source/docs/EDGAR_Pipeline.png)
+
+![EDGAR_Pipeline](source/docs/EDGAR_Pipeline.png)
 
 If you want to work with us on the EDGAR, tests your algorithms on the real car or if you have any questions, feel free to contact our [EDGAR-Team](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/edgar/).
 

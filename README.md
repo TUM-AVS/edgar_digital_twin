@@ -1,8 +1,8 @@
 # TUM EDGAR: Digital Twin
 
-Welcome to the EDGAR Digital Twin repository of the Technical University of Munich! Here you find data, parameters, and information related to our TUM EDGAR research vehicle. 
+Welcome to the EDGAR Digital Twin repository of the Technical University of Munich! Here you find data, parameters, and information related to our TUM EDGAR research vehicle.
 
-![EDGAR](source/docs/DSC07451.jpg)
+![EDGAR](source/docs/EDGAR_Digital_Twin.png)
 
 
 ## What is a Digital Twin?
@@ -23,7 +23,7 @@ The 3D model files can be found in the folder `3d_model`. We offer a `high_res` 
 
 #### Sensor Parameters
 
-In this folder, we provide a detailed parameter set that specifies the position (x, y, z) of the sensors in relation to the rear axle (base link) of the autonomous research vehicle. 
+In this folder, we provide a detailed parameter set that specifies the position (x, y, z) of the sensors in relation to the rear axle (base link) of the autonomous research vehicle.
 The `x`, `y`, and `z` values represent the coordinates in meters, indicating the displacement of each sensor from base link along the respective axes.
 The parameter set can be found in the file [edgar.urdf](source/sensor_parameter/edgar.urdf) located in the `sensor_parameter` directory. We refer to the [README](source/sensor_parameter/README.md) for further details.
 
@@ -59,8 +59,8 @@ P. Karle et al., "EDGAR: An Autonomous Driving Research Platform - From Feature 
 ```
 @ARTICLE{Karle2023_2,
   author={Karle, Phillip and Török, Ferenc and Geisslinger, Maximilian and Lienkamp, Markus},
-  journal={IEEE Access}, 
-  title={MixNet: Physics Constrained Deep Neural Motion Prediction for Autonomous Racing}, 
+  journal={IEEE Access},
+  title={MixNet: Physics Constrained Deep Neural Motion Prediction for Autonomous Racing},
   year={2023},
   volume={11},
   number={},

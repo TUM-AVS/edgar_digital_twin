@@ -48,10 +48,12 @@ The parameter set can be found in the file [vehicle_parameters_edgar.yaml](sourc
 ## AWSIM
 The given tool can be used to integrate our research vehicle as 3D-model in the [AWSIM](https://github.com/tier4/AWSIM) simulation environment by TierIV. A detailed description how to use the tool is given in the [README](tools/AWSIM/README.md).
 
+## CARLA
+In this folder you will find the necessary documentation and files for importing EDGAR into the [CARLA](https://carla.org/) Open Source Simulator.
+
 ## Edgar State Publisher
 By means of the given guide, EDGAR can be visualized in the Robot State Publisher based on the given .urdf-file. A detailed description how to use the tool is given in the [README](tools/edgar_state_publisher/README.md).
-
-<!-- #### CARLA -->
+ CARLA
 
 </details>
 

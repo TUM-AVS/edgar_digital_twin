@@ -56,21 +56,23 @@ By means of the given guide, EDGAR can be visualized in the Robot State Publishe
 
 <details>
 <summary> <h2> 📇 Contact and Contribution </h2> </summary>
+We are welcome interested researchers and developers in the field to contribute to our autonomous driving research. People can integrate the EDGAR digital twin in their simulations and use it to derive results. If you further want to collaborate, we are displaying the TUM EDGAR development pipeline below. Feel free to develop autonomous driving software features or create new 2D or 3D maps.
+![EDGAR](source/docs/EDGAR_Pipeline.png)
 
-If you have any questions, feel free to contact our [EDGAR-Team](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/edgar/).
+If you want to work with us on the EDGAR, tests your algorithms on the real car or if you have any questions, feel free to contact our [EDGAR-Team](https://www.mos.ed.tum.de/en/ftm/main-research/intelligent-vehicle-systems/edgar/).
 
 </details>
 
 <details>
 <summary> <h2> 📃Reference and Citation </h2> </summary>
-P. Karle et al., "EDGAR: An Autonomous Driving Research Platform - From Feature Development to Real-World Application" (under review)
-</details>
+The collected research papers in this repository were used to create the paper [EDGAR: An Autonomous Driving Research Platform -- From Feature Development to Real-World Application](https://arxiv.org/abs/2309.15492). If you find the information in this repository useful we would be happy if you cite it based on the following definition:
 
 ```bibtex
-@inproceedings{sauerbeck2023,
-  title={Multi-LiDAR Localization and Mapping Pipeline for Urban Autonomous Driving},
-  author={\textbf{Sauerbeck, Florian} and Kulmer, Dominik and Leitenstern, Maximilian and Weiss, Christoph and Betz, Johannes},
-  booktitle={2023 IEEE Sensors},
-  year={2023},
+@inproceedings{edgar2024,
+  author = {Phillip Karle and Tobias Betz and Marcin Bosk and Felix Fent and Nils Gehrke and Maximilian Geisslinger and Luis Gressenbuch and Philipp Hafemann and Sebastian Huber and Maximilian Hübner and Sebastian Huch and Gemb Kaljavesi and Tobias Kerbl and Dominik Kulmer and Tobias Mascetta and Sebastian Maierhofer and Florian Pfab and Filip Rezabek and Esteban Rivera and Simon Sagmeister and Leander Seidlitz and Florian Sauerbeck and Ilir Tahiraj and Rainer Trauth and Nico Uhlemann and Gerald Würsching and Baha Zarrouki and Matthias Althoff and Johannes Betz and Klaus Bengler and Georg Carle and Frank Diermeyer and Jörg Ott and Markus Lienkamp},
+  Title = {EDGAR: An Autonomous Driving Research Platform -- From Feature Development to Real-World Application},
+  Year = {2023},
+  Eprint = {arXiv:2309.15492},
 }
 ```
+</details>

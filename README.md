@@ -59,7 +59,7 @@ By means of the given guide, EDGAR can be visualized in the Robot State Publishe
 
 <details>
 <summary> <h2> 📇 Contact and Contribution </h2> </summary>
-We are welcome interested researchers and developers in the field to contribute to our autonomous driving research. People can integrate the EDGAR digital twin in their simulations and use it to derive results. If you further want to collaborate, we are displaying the TUM EDGAR development pipeline below. Feel free to develop autonomous driving software features or create new 2D or 3D maps.\
+We are welcome interested researchers and developers in the field to contribute to our autonomous driving research. People can integrate the EDGAR digital twin in their simulations and use it to derive results. If you further want to collaborate, we are displaying the TUM EDGAR development pipeline below. Feel free to develop autonomous driving software features or create new 2D or 3D maps.
 
 ![EDGAR_Pipeline](source/docs/EDGAR_Pipeline.png)
 

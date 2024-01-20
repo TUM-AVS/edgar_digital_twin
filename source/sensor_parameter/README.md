@@ -1,7 +1,7 @@
 # Overview
 This section describes the sensor position Parameters for our EDGAR research vehicle. The vehicle consists of multiple different sensors ranging from microphone, RADAR, LiDAR, Camera and dGPS. In the below picture, you see a qualitative picture of where the sensors are positioned
 
-![EDGAR_Sensors](source/docs/EDGAR_Sensor_Overview.png)
+![EDGAR_Sensors](../docs/EDGAR_Sensor_Overview.png)
 
 # URDF
 Here, we describee the [edgar.urdf](edgar.urdf) of the EDGAR research vehicle. A URDF (Unified Robot Description Format) is a file used to represent the kinematic and dynamic description of a robot. It enables the modeling of robots using joints and links among other attributes.

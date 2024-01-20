@@ -59,7 +59,7 @@ By means of the given guide, EDGAR can be visualized in the Robot State Publishe
 
 <details>
 <summary> <h2> 📇 Contact and Contribution </h2> </summary>
-We are welcome interested researchers and developers in the field to contribute to our autonomous driving research. People can integrate the EDGAR digital twin in their simulations and use it to derive results. If you further want to collaborate, we are displaying the TUM EDGAR development pipeline below. Feel free to develop autonomous driving software features or create new 2D or 3D maps.
+We are welcome interested researchers and developers in the field to contribute to our autonomous driving research. People can integrate the EDGAR digital twin in their simulations and use it to derive results. If you further want to collaborate, we are displaying the TUM EDGAR development pipeline below. Feel free to develop autonomous driving software features or create new 2D or 3D maps.\
 
 ![EDGAR_Pipeline](source/docs/EDGAR_Pipeline.png)
 
@@ -69,8 +69,9 @@ If you want to work with us on the EDGAR, tests your algorithms on the real car 
 
 <details>
 <summary> <h2> 📃 Reference and Citation </h2> </summary>
+
 The collected research papers in this repository were used to create the paper
-[TUM EDGAR research vehicle](https://arxiv.org/pdf/2309.15492.pdf) . If you find the information in this repository useful we would be happy if you cite it based on the following definition:
+[EDGAR: An Autonomous Driving Research Platform-From Feature Development to Real-World Application](https://arxiv.org/pdf/2309.15492.pdf). If you find the information in this repository useful we would be happy if you cite it based on the following definition:
 
 ```bibtex
 @inproceedings{edgar2024,

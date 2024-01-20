@@ -1,5 +1,6 @@
 # Overview
-This section describes the sensor position paramters for our EDGAR research vehicle. The vehicle consists of multiple different sensors ranging from microphone, RADAR, LiDAR, Camera and dGPS. In the below picture, you see a qualitative picture of where the sensors are positioned
+This section describes the sensor position Parameters for our EDGAR research vehicle. The vehicle consists of multiple different sensors ranging from microphone, RADAR, LiDAR, Camera and dGPS. In the below picture, you see a qualitative picture of where the sensors are positioned
+
 ![EDGAR_Sensors](source/docs/EDGAR_Sensor_Overview.png)
 
 # URDF

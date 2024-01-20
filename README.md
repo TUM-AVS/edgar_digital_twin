@@ -69,7 +69,8 @@ If you want to work with us on the EDGAR, tests your algorithms on the real car 
 
 <details>
 <summary> <h2> 📃 Reference and Citation </h2> </summary>
-The collected research papers in this repository were used to create the paper [EDGAR: An Autonomous Driving Research Platform-From Feature Development to Real-World Application](https://arxiv.org/abs/2309.15492) . If you find the information in this repository useful we would be happy if you cite it based on the following definition:
+The collected research papers in this repository were used to create the paper
+[TUM EDGAR research vehicle](https://arxiv.org/pdf/2309.15492.pdf) . If you find the information in this repository useful we would be happy if you cite it based on the following definition:
 
 ```bibtex
 @inproceedings{edgar2024,

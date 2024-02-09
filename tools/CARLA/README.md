@@ -10,6 +10,7 @@ The files available in this directory are the output of the step [Bind and model
 A short description of the files is given in the table below:
 | File Name             | Description                                                   |
 |-----------------------|------------------------------------------------------         |
+| EDGAR_T7_Carla.tar.gz | The compressed Unreal Assets to paste in the CARLA build from source |
 | sensors_to_carla.py | Imports all the sensors specified in the urdf file into the CARLA environment. |
 
 ## Getting Started
@@ -24,28 +25,28 @@ This will bring up the Unreal Editor. From here you have **two options** availab
 ## Usage Option 1
 Fast option: works in CARLA 0.9.14 with Unreal 4.26 and Ubuntu 22.04. However, the option of copying precompiled assets into the unreal engine is prone to errors if versions, file paths, etc. change. If you have no success, try option 2.
 
-1. Copy the complete [Unreal](Unreal) folder into the your carla root folder files `cp -r Unreal <your_carla_root>`. 
-2. Warning: this will override your *VehicleFactory.uasset* file with [ours](Unreal/CarlaUE4/Content/Carla/Blueprints/Vehicles/VehicleFactory.uasset). If you have already created custom vehicles, you need to manually add the EDGAR vehicle to your vehicle garage as described in the secection [below](#adding-the-vehicle-to-the-vehicle-factory)
+1. Unzip the content of [EDGAR_T7_Carla.tar.gz](EDGAR_T7_Carla.tar.gz) into the CARLA content folder `tar -xf EDGAR_T7_Carla.tar.gz -C CARLA_ROOT/Unreal/Carla4UE/Content/Carla` 
+2. Warning: this will override your *VehicleFactory.uasset* file with [ours](Unreal/CarlaUE4/Content/Carla/Blueprints/Vehicles/VehicleFactory.uasset). If you have already created custom vehicles, you need to manually add the EDGAR vehicle to your vehicle garage as described in the secection [below](#adding-the-vehicle-to-the-vehicle-factory).
 3. Continue to running the [simulation](#run-the-simulation)
 
 ## Usage Option 2
 This option involves manually creating the `*.uasset` files starting from the provided ``.fbx`` files 
-- [Skeletal / Render Mesh](../../source/3d_model/high_res/Edgar_T7.fbx)
-- [Physcial Assest Mesh](../../source/3d_model/high_res/SMC_T7.fbx) 
-- [Collision Mesh](../../source/3d_model/high_res/SMC_sc_T7.fbx)
+- [Skeletal / Render Mesh](../../source/3d_model/high_res/EDGAR_T7.fbx)
+- [Physcial Assest Mesh](../../source/3d_model/high_res/SMC_EDGAR_T7.fbx) 
+- [Collision Mesh](../../source/3d_model/high_res/SMC_sc_EDGAR_T7.fbx)
 
 It is necessary to import the vehicle, mesh, physical asset mesh and raycasting mesh into Unreal Engine Editor and create the necessary blueprints according to the official documentation [Import and configure the vehicle](https://carla.readthedocs.io/en/latest/tuto_A_add_vehicle/#import-and-configure-the-vehicle). 
 The steps are briefly described below
 
 1. Create a folder `EDGAR_T7` for the vehicle under the Unreal Engine Folder `Content/Carla/Static/Car/4Wheeled`
    - *Depending on the CARLA distribution the folder can also be called* `Content/Carla/Static/Vehicles/4Wheeled`
-2. Import the skeletal / render mesh [EDGAR_T7.fbx](../../source/3d_model/high_res/Edgar_T7.fbx), the physical asset mesh [SMC_T7.fbx](../../source/3d_model/high_res/SMC_T7.fbx) and raycasting mesh  [SMC_sc_T7.fbx](../../source/3d_model/high_res/SMC_sc_T7.fbx).
-3. Setting the physical asset mesh. Here the SMC_T7.fbx file is needed.
+2. Import the skeletal / render mesh [EDGAR_T7.fbx](../../source/3d_model/high_res/EDGAR_T7.fbx), the physical asset mesh [SMC_EDGAR_T7.fbx](../../source/3d_model/high_res/SMC_EDGAR_T7.fbx) and raycasting mesh  [SMC_sc_EDGAR_T7.fbx](../../source/3d_model/high_res/SMC_sc_EDGAR_T7.fbx).
+3. Setting the physical asset mesh. Here the SMC_EDGAR_T7.fbx file is needed.
 4. Create the Animation Blueprint.
 5. Configure the Animation Blueprint.
 6. Prepare the vehicle and wheel blueprints.
 7. Configure the wheel blueprints.
-8. Configure vehicle blueprint. Here the SMC_sc_T7.fbx mesh is needed.
+8. Configure vehicle blueprint. Here the SMC_sc_EDGAR_T7.fbx mesh is needed.
 9.  Add the vehicle to the Blueprint Library.
     - In this step you must add the created blueprint to the array of vehicles. Choose the `make` and `model` parameters. We use `edgar` as make and `t7` as model.
 
@@ -88,4 +89,4 @@ The following pictures show the result after importing the vehicle and running t
 
 ![Front View](docs/Front.png)
 
-![Side Rear View](docs/Side_Rear.png)
+![Side Rear View](docs/Rear.png)

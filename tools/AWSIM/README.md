@@ -60,10 +60,10 @@ Adding the prefab to AWSIM can happen via two ways:
 - drag the prefab from the explorer to the asset library in unity.
 Further, EDGAR then needs to be spawned in the scene by dragging the prefab from the asset library in Unity into the environment object. When hitting play, EDGAR should now send the corresponding sensor messages and react to inputs.
 
-The prefab was generated using the [AWSIM Documentation](https://github.com/tier4/AWSIM/tree/main/docs/Components/Vehicle/AddNewVehicle/index.md)
+The prefab was generated using the [AWSIM Documentation](https://github.com/tier4/AWSIM/blob/main/docs/Components/Vehicle/AddNewVehicle/AddAVehicle/index.md)
 
 
-![EDGAR_AWSIM](docs/EDGAR_AWSIM.png)
+![EDGAR_AWSIM](docs/Edgar_AWSIM.png)
 
 ## Changing Sensor Setup
 Sensor setup, including the sensor position and orientation, can be changed only in the unity environment by selecting the respective link object in the `URDF` parent. Please refrain from transforming the sensor directly, but rather change the parent link to achieve the repositioning. For more details, refrain to the corresponding [AWSIM documentation page](https://github.com/tier4/AWSIM/blob/main/docs/Components/Vehicle/AddNewVehicle/AddSensors/index.md).
